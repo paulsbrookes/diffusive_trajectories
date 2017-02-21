@@ -1,3 +1,5 @@
-psinew[0]=D2;
-psinew[1]=Blank(kappa);
+psinew[0]=rootk*(0. - 0.5*expectationk*psi[0] + 1.*psi[2]);
+psinew[1]=rootk*(0. - 0.5*expectationk*psi[1] + 1.*psi[3]);
+psinew[2]=rootk*(0. - 0.5*expectationk*psi[2]);
+psinew[3]=rootk*(0. - 0.5*expectationk*psi[3]);
  

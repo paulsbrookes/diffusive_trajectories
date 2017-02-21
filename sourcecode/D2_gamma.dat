@@ -1,3 +1,5 @@
-psinew[0]=D2;
-psinew[1]=Blank(gamma);
+psinew[0]=rootg*(0. - 0.5*expectationg*psi[0] + 1.*psi[1]);
+psinew[1]=rootg*(0. - 0.5*expectationg*psi[1]);
+psinew[2]=rootg*(0. - 0.5*expectationg*psi[2] + 1.*psi[3]);
+psinew[3]=rootg*(0. - 0.5*expectationg*psi[3]);
  
