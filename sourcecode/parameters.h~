@@ -1,0 +1,15 @@
+const double endtime=12000000;
+const int glb_size=4;
+const int snap_to_snap = 1000;
+const int bins = 240000000;
+const int snapshots_number = 240000;
+double kappa = 0.00005;
+double gamma_c = 0.0001;
+double g = 0.06;
+double dt = endtime/bins;
+double drive = 0.007;
+double omega_c = 10.5663;
+double omega_q = 10.1163;
+double omega_d = 10.5740;
+double dc = omega_d - omega_c;
+double dq = omega_d - omega_q;
